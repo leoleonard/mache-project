@@ -182,3 +182,32 @@ nav {
 	}
 }
 
+// SERVICES
+.services-section {
+	margin-bottom: 3rem;
+	h2 {
+		font-weight: 300;
+		font-style: italic;
+		margin: 5rem 0 0;
+	}
+	p {
+		font-weight: 300;
+		margin: 0 0 3rem;
+	}
+	.services-icon {
+		border-radius: 50px;
+		border: 1px solid $additional-font-color;
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+		position: relative;
+		img {
+			position: absolute;
+			transform: translate(-50%, 35%);
+		}
+	}
+}
+
+/ 
+
