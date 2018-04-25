@@ -209,5 +209,48 @@ nav {
 	}
 }
 
-/ 
+//QUOTES
+.quotes-section {
+	background: #000 url('./../../img/header_background.jpg') top/cover;
+	.quotes {
+		padding: 2rem 0;
+		position: relative;
+		[class*="fa-chevron"]{
+			color: #8f8f8f;
+			position: absolute;
+			top: 50%;
+			font-size: 2rem;
+			transform: translate(0, -50%);
+			transition: al 0.3s;
+			&:hover {
+				color: #fff;
+				text-shadow: 0 0 3px #fff;
+			}
+		}
+			.fa-chevron-left {
+				left: -4%;
+			}
+			.fa-chevron-right {
+				right: -4%;
+			}
+			.quote {
+				font-family: $font-main;
+				.quotation-mark {
+					font-size: 4rem;
+					color: $main-color;
+					transform: translate(0, 18%);
+				}
+				.p {
+					width: 70%;
+					margin: 0 auto;
+					line-height: 1.6;
+					font-style: italic;
+					color: $text-color;
+				}
+			}
+	}
+}
+
+//
+
 
