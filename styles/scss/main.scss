@@ -5,18 +5,12 @@ $text-color: #FFF;
 $additional-font-color: #5A5A5A;
 $font-main: 'Lato', sans-serif;
 $nav-height: 5rem;
-$nav-hamburger-size: 2.5rem;
 $container-margin: 16%;
-$tablets: "(min-width: 768px) and (max-width: 1199px)";
-$phones: "(max-width: 767px)";
+
 
 
 * {
 	box-sizing: border-box;
-}
-
-*:focus {
-	outline: none;
 }
 
 body {
@@ -60,10 +54,6 @@ section {
 	text-align: center;
 }
 
-h5 {
-	text-transform: uppercase;
-	color: $main-color;
-}
 
 // HEADER
 
