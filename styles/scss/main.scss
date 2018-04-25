@@ -1,0 +1,135 @@
+// GLOBAL
+
+$main-color: #ED145B;
+$text-color: #FFF;
+$additional-font-color: #5A5A5A;
+$font-main: 'Lato', sans-serif;
+$nav-height: 5rem;
+$nav-hamburger-size: 2.5rem;
+$container-margin: 16%;
+$tablets: "(min-width: 768px) and (max-width: 1199px)";
+$phones: "(max-width: 767px)";
+
+
+* {
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	margin: 0 $container-margin; 
+}
+
+.line {
+	display: inline-block;
+	width: 150px;
+	border-bottom: 2px solid $main-color;
+	margin: 1.2em;
+}
+
+.button {
+	background-color: $main-color;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFF;
+	border: none;
+	width: 150px;
+	height: 35px;
+	border-radius: 40px;
+	cursor: pointer;
+	transition: all 0.3s;
+	&:hover {
+		background-color: #fff;
+		color: $main-color;
+		box-shadow: 0 0 5px 2px $main-color;
+		text-shadow: 0 0 4px $additional-font-color;
+	}
+}
+
+
+section {
+	font-family: $font-main;
+	color: $additional-font-color;
+	text-align: center;
+}
+
+h5 {
+	text-transform: uppercase;
+	color: $main-color;
+}
+
+// HEADER
+
+header {
+	height: 100vh;
+	background: #000 url('./../../img/header_background.jpg') center/cover;
+	color: $text-color;
+	font-family: $font-main;
+	position: relative;
+	min-height: 600px;
+	.header-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		.header-slogan {
+			font-weight: 300;
+			margin: 0;
+			text-transform: uppercase;
+			span {
+				font-weight: 900;
+			}
+		}
+	}
+	.header-text {
+		font-weight: 300;
+		margin: 0;
+		padding-bottom: 0.5rem;
+	}
+	.button {
+		margin: 3.3em auto;
+	}
+}
+
+// NAVIGATION
+
+nav {
+	height: $nav-height;
+	line-height: $nav-height;
+	color: $text-color;
+	font-size: 16px;
+	font-weight: bold;
+	.logo-container {
+		display: inline-block;
+		.logo {
+			transform: translate(0, 20%);
+		}
+	}
+	.nav-list {
+		float: right;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		.nav-item {
+			display: inline-block;
+			a {
+				color: $text-color;
+				text-decoration: none;
+				margin-left: 1em;
+			}
+		}
+		.nav-active {
+			a {
+				color: $main-color;
+			}
+		}
+	}
+}
