@@ -7,8 +7,6 @@ $font-main: 'Lato', sans-serif;
 $nav-height: 5rem;
 $container-margin: 16%;
 
-
-
 * {
 	box-sizing: border-box;
 }
@@ -123,3 +121,64 @@ nav {
 		}
 	}
 }
+
+// ABOUT 
+.about-section {
+	position: relative;
+	font-weight: 300;
+	background-color: #f4f4f4;
+	text-align: left;
+	min-height: 430px;
+	.clippy {
+		background-color: $main-color;
+		clip-path: polygon(0 0, 0 100%, 100%, 0);
+		height: 2rem;
+	}
+	.about-content {
+		width: 35%;
+		h2 {
+			width: 50%;
+			font-weight: 300;
+			font-style: italic;
+			margin-top: 3rem;
+		}
+		.about-line {
+			margin: 0.6rem;
+		}
+		.see-video {
+			text-transform: uppercase;
+			color: $main-color;
+			font-weight: 700;
+			padding-bottom: 50px;
+			a {
+				display: inline-block;
+				border: 1px solic $main-color;
+				border-radius: 50%;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				.fa-play {
+					transform: translate(0%, -10%);
+					color: $main-color;
+					font-size: 0.8rem;
+					padding: 5px;
+				}
+				&:hover {
+					background-color: $main-color;
+					.fa-play {
+						color: $text-color;
+					}
+				}
+			}
+		}
+	}
+	img {
+		width: 50%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translate(0%, 15%);
+	}
+}
+
