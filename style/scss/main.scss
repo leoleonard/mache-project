@@ -131,7 +131,7 @@ nav {
 	min-height: 430px;
 	.clippy {
 		background-color: $main-color;
-		clip-path: polygon(0 0, 0 100%, 100%, 0);
+		clip-path: polygon(0 0, 0 100%, 100% 0);
 		height: 2rem;
 	}
 	.about-content {

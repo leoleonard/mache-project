@@ -93,7 +93,7 @@ nav {
   min-height: 430px; }
   .about-section .clippy {
     background-color: #ED145B;
-    clip-path: polygon(0 0, 0 100%, 100%, 0);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
     height: 2rem; }
   .about-section .about-content {
     width: 35%; }
