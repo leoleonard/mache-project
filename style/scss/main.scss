@@ -7,6 +7,7 @@ $font-main: 'Lato', sans-serif;
 $nav-height: 5rem;
 $container-margin: 16%;
 
+// GENERAL
 * {
 	box-sizing: border-box;
 }
@@ -136,6 +137,7 @@ nav {
 	}
 	.about-content {
 		width: 35%;
+		position: relative;
 		h2 {
 			width: 50%;
 			font-weight: 300;
@@ -152,7 +154,7 @@ nav {
 			padding-bottom: 50px;
 			a {
 				display: inline-block;
-				border: 1px solic $main-color;
+				border: 1px solid $main-color;
 				border-radius: 50%;
 				width: 30px;
 				height: 30px;
@@ -173,7 +175,7 @@ nav {
 			}
 		}
 	}
-	img {
+	.about-image {
 		width: 50%;
 		position: absolute;
 		bottom: 0;
@@ -194,6 +196,7 @@ nav {
 		font-weight: 300;
 		margin: 0 0 3rem;
 	}
+}
 	.services-icon {
 		border-radius: 50px;
 		border: 1px solid $additional-font-color;
@@ -206,7 +209,6 @@ nav {
 			position: absolute;
 			transform: translate(-50%, 35%);
 		}
-	}
 }
 
 //QUOTES
@@ -221,7 +223,7 @@ nav {
 			top: 50%;
 			font-size: 2rem;
 			transform: translate(0, -50%);
-			transition: al 0.3s;
+			transition: all 0.3s;
 			&:hover {
 				color: #fff;
 				text-shadow: 0 0 3px #fff;
@@ -240,7 +242,7 @@ nav {
 					color: $main-color;
 					transform: translate(0, 18%);
 				}
-				.p {
+				p {
 					width: 70%;
 					margin: 0 auto;
 					line-height: 1.6;

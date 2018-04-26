@@ -96,7 +96,8 @@ nav {
     clip-path: polygon(0 0, 0 100%, 100% 0);
     height: 2rem; }
   .about-section .about-content {
-    width: 35%; }
+    width: 35%;
+    position: relative; }
     .about-section .about-content h2 {
       width: 50%;
       font-weight: 300;
@@ -111,7 +112,7 @@ nav {
       padding-bottom: 50px; }
       .about-section .about-content .see-video a {
         display: inline-block;
-        border: 1px solic #ED145B;
+        border: 1px solid #ED145B;
         border-radius: 50%;
         width: 30px;
         height: 30px;
@@ -126,7 +127,7 @@ nav {
           background-color: #ED145B; }
           .about-section .about-content .see-video a:hover .fa-play {
             color: #FFF; }
-  .about-section img {
+  .about-section .about-image {
     width: 50%;
     position: absolute;
     bottom: 0;
@@ -142,17 +143,18 @@ nav {
   .services-section p {
     font-weight: 300;
     margin: 0 0 3rem; }
-  .services-section .services-icon {
-    border-radius: 50px;
-    border: 1px solid #5A5A5A;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
-    position: relative; }
-    .services-section .services-icon img {
-      position: absolute;
-      transform: translate(-50%, 35%); }
+
+.services-icon {
+  border-radius: 50px;
+  border: 1px solid #5A5A5A;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  position: relative; }
+  .services-icon img {
+    position: absolute;
+    transform: translate(-50%, 35%); }
 
 .quotes-section {
   background: #000 url("./../../img/header_background.jpg") top/cover; }
@@ -165,7 +167,7 @@ nav {
       top: 50%;
       font-size: 2rem;
       transform: translate(0, -50%);
-      transition: al 0.3s; }
+      transition: all 0.3s; }
       .quotes-section .quotes [class*="fa-chevron"]:hover {
         color: #fff;
         text-shadow: 0 0 3px #fff; }
@@ -179,7 +181,7 @@ nav {
         font-size: 4rem;
         color: #ED145B;
         transform: translate(0, 18%); }
-      .quotes-section .quotes .quote .p {
+      .quotes-section .quotes .quote p {
         width: 70%;
         margin: 0 auto;
         line-height: 1.6;
