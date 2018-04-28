@@ -289,7 +289,7 @@ nav {
 
 	.price{
 		color: #FFF;
-		background-color: #5A5A5A;
+		background-color: $additional-font-color;
 		position: relative;
 		padding: 0.8rem 0 1.8rem;
 		p{
@@ -326,5 +326,27 @@ nav {
 			}
 		}
 		button{margin-bottom: 2em; width: 80%}
+	}
+}
+
+// EXTRA INFO
+
+.extra-info-section {
+	padding: 5rem 0 3rem;
+}
+.info-icon {
+	text-align: center;
+}
+.info {
+	padding: 0 1.2rem;
+	margin-bottom: 1.5rem;
+	h5 {
+		margin: 0;
+		color: $main-color;
+	}
+	p {
+		font-weight: 300;
+		line-height: 1.5;
+		color: $additional-font-color;
 	}
 }

@@ -250,4 +250,21 @@ nav {
     margin-bottom: 2em;
     width: 80%; }
 
+.extra-info-section {
+  padding: 5rem 0 3rem; }
+
+.info-icon {
+  text-align: center; }
+
+.info {
+  padding: 0 1.2rem;
+  margin-bottom: 1.5rem; }
+  .info h5 {
+    margin: 0;
+    color: #ED145B; }
+  .info p {
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5A5A5A; }
+
 /*# sourceMappingURL=main.css.map */
