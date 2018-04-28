@@ -350,3 +350,33 @@ nav {
 		color: $additional-font-color;
 	}
 }
+
+// JOIN
+.join-section {
+	background-color: $main-color;
+	color: $text-color;
+	text-transform: uppercase;
+	padding: 2.5rem;
+	h2 {
+		display: inline-block;
+		font-weight: 300;
+		span {
+			font-weight: 700;
+		}
+	}
+	button {
+		background-color: #FFF;
+		color: $main-color;
+		transform: translate(0%, -12%);
+		font-size: 0.75rem;
+		font-weight: 700;
+		margin: 0 2.5rem;
+		&:hover {
+			background-color: $main-color;
+			color: #fff;
+			box-shadow: 0 0 5px 2px #fff;
+			text-shadow: 0 0 4px $additional-font-color;
+			}
+		
+	}
+}
