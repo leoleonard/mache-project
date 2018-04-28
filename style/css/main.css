@@ -188,4 +188,66 @@ nav {
         font-style: italic;
         color: #FFF; }
 
+.prices-section {
+  background-color: #f4f4f4;
+  position: relative;
+  font-weight: 300;
+  font-style: italic;
+  padding: 4rem 0; }
+  .prices-section h2 {
+    margin: 0 auto;
+    font-weight: inherit; }
+  .prices-section p {
+    width: 60%;
+    margin: 0 auto; }
+  .prices-section .row .prices {
+    min-height: 300px;
+    margin-top: 2rem;
+    padding: 0.8rem; }
+
+.price-content {
+  font-style: normal;
+  background-color: #FFF;
+  transition: 0.5s; }
+  .price-content:hover {
+    box-shadow: 0 0 10px 2px #5A5A5A; }
+    .price-content:hover .price-active {
+      box-shadow: 0 0 10px 2px #ED145B; }
+  .price-content .price {
+    color: #FFF;
+    background-color: #5A5A5A;
+    position: relative;
+    padding: 0.8rem 0 1.8rem; }
+    .price-content .price p {
+      font-weight: 700; }
+      .price-content .price p span {
+        font-size: 3rem; }
+    .price-content .price .price-name {
+      background-color: #f4f4f4;
+      font-weight: 700;
+      font-size: 0.8em;
+      color: #5A5A5A;
+      text-transform: uppercase;
+      margin: 0 auto;
+      width: 75%;
+      border-radius: 20px;
+      line-height: 2.5;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%); }
+  .price-content .price-active {
+    background-color: #ED145B; }
+  .price-content .price-offer-content ul {
+    display: inline-block;
+    list-style: none;
+    padding: 1.5rem 0 0 0; }
+    .price-content .price-offer-content ul li {
+      line-height: 1.2;
+      margin: 0.3rem;
+      font-size: 0.9rem; }
+  .price-content .price-offer-content button {
+    margin-bottom: 2em;
+    width: 80%; }
+
 /*# sourceMappingURL=main.css.map */
