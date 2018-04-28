@@ -443,3 +443,22 @@ nav {
 		.updates-photo-6{background: url("../../img/updates6.jpg") center/cover};
 	}
 }
+
+//FOOTER
+footer {
+	background-color: #2b2b2b;
+	font-family: $font-main;
+	p {
+		font-weight: 300;
+		display: inline-block;
+		color: $text-color;
+		text-transform: uppercase;
+		line-height: 2.667;
+		span {
+			font-weight: 700;
+		}
+	}
+	.footer-right {
+		float: right;
+	}
+}
