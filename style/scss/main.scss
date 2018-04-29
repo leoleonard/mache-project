@@ -6,6 +6,12 @@ $additional-font-color: #5A5A5A;
 $font-main: 'Lato', sans-serif;
 $nav-height: 5rem;
 $container-margin: 16%;
+$tablets: "(min-width: 768px) and (max-width: 1199px)";
+$phones: "(max-width: 767px)";
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
 
 // GENERAL
 * {
@@ -295,7 +301,7 @@ nav {
 		p{
 			font-weight: 700;
 			span{font-size: 3rem;}
-		}		
+		}
 		.price-name{
 			background-color: #f4f4f4;
 			font-weight: 700;
@@ -343,6 +349,7 @@ nav {
 	h5 {
 		margin: 0;
 		color: $main-color;
+		text-transform: uppercase;
 	}
 	p {
 		font-weight: 300;
@@ -377,7 +384,7 @@ nav {
 			box-shadow: 0 0 5px 2px #fff;
 			text-shadow: 0 0 4px $additional-font-color;
 			}
-		
+
 	}
 }
 
@@ -417,6 +424,7 @@ nav {
 		h5 {
 			color: #5A5A5A;
 			 padding-bottom: 0;
+			 text-transform: uppercase;
 			}
 		.updates-clippy {
 			background-color: $main-color;

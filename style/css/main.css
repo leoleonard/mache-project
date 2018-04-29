@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
 * {
   box-sizing: border-box; }
 
@@ -261,7 +262,8 @@ nav {
   margin-bottom: 1.5rem; }
   .info h5 {
     margin: 0;
-    color: #ED145B; }
+    color: #ED145B;
+    text-transform: uppercase; }
   .info p {
     font-weight: 300;
     line-height: 1.5;
@@ -316,7 +318,8 @@ nav {
       font-weight: 300; }
     .updates-section .updates h5 {
       color: #5A5A5A;
-      padding-bottom: 0; }
+      padding-bottom: 0;
+      text-transform: uppercase; }
     .updates-section .updates .updates-clippy {
       background-color: #ED145B;
       opacity: 0.8;
